@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* title-section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+/* navbar-settings */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* f-container settings */
+#features {
+  position: relative;
+}
+
+/* features each box */
+.f-box {
+  padding: 5%;
+}
+
+.f-h3 {
+  font-size: 1.5rem;
+}
+
+.f-p {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* font-awesome settings for features */
+.f-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section  */
+.test {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.t-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 30px 30px 30px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px
+}
+
+.h2-pricing {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.h3-pricing {
+  font-size: 2rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog {
+  width: 100%
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+/* cta section */
+
+.h3-cta {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
+
+.download-footer-btn {
+  margin-right: 3%;
+}
+
+/* footer section */
+.footer-p {
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1200px) {
+  .title-image {
+    position: static;
+    width: 65%;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+}
